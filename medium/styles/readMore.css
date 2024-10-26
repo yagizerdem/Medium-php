@@ -1,0 +1,31 @@
+#headerImg {
+  display: block;
+  margin: 30px auto;
+  border-radius: 60px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+#author {
+  text-align: center;
+}
+#email {
+  text-align: center;
+}
+.editorjs {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(238, 229, 229);
+  border-radius: 10px;
+  border: 2px solid black;
+  overflow-y: scroll;
+}
